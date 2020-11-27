@@ -1,13 +1,13 @@
 # ada-2020-project-milestone-p3-p3_yo-banana-boy
 
-|| Title
+### **|| Title**  
 What can we learn from Wikipedia adminship elections? How social network structure potentially influences voting in a time-dependent manner: analysis of a signed social network
 
-|| Abstract 
+### **|| Abstract**  
 The main idea behind our project proposal is to extend the signed social network analysis to the time domain. We believe that the Wikipedia dataset has not been analysed to its full extent by the authors and thus want to take advantage of the so far unused information in this dataset to determine amongst others temporal dynamics and patterns in adminship elections. Staying in the field of social networks and theories, we also want to find out if we can confirm or refute specific social theories such as herding behaviour on this dataset where votes were public during elections. The goal is thus to get a deeper overview of temporal influence on social networks and especially on election outcomes. Our findings might later on be extended and tested on other datasets from other signed networks to reach a full understanding of the influence of public voting models on election outcomes. 
 
 
-|| Research Questions 
+### **|| Research Questions**  
 The main focus of our research will be on temporal analysis of Wikipedia adminship elections.
 
 - What can we learn about the temporal dynamics of the elections?
@@ -24,7 +24,7 @@ Some other aspects also being investigated are:
 Related work without precise analysis of the observed time patterns for Wikipedia adminship elections can be found in the following preserver published [article](https://arxiv.org/abs/1004.3547). 
 
 
-|| Proposed dataset
+### **|| Proposed dataset**
 Wikielec dataset from the replicated paper. 
 This dataset contains the information about all elections for Wikipedia administrators that happened between 2004-09-14 and 2008-01-06, including : 
 - The Election outcome (promotion as an admin or not)
@@ -33,7 +33,7 @@ This dataset contains the information about all elections for Wikipedia administ
 - The voters’ ID and their respective votes value for each of the elections they participated in (1:support, 0:neutral, -1:oppose)
 The dataset shares these previous pieces of information about 2.800 elections, cumulating a total of around 100’000 votes, and about 7’000 users (voters and candidates). 
 
-|| Methods 
+### **|| Methods** 
 **Data collection:**
 Download the dataset provided for the replication analysis.
 https://snap.stanford.edu/data/wiki-Vote.html
@@ -60,7 +60,7 @@ Importantly, we will group by various time periods -- using pandas.Grouper -- to
 When possible, we will estimate our error by displaying (bootstraped) confidence intervals.
 Finally, we’ll use a 2D dynamic plot to follow election statistics. 
 
-|| Proposed Timeline 
+### **|| Proposed Timeline** 
 Week 1: 27/11 - 04/12
 Data loading, Data cleaning, Data wrangling, basic visualization to get a sense of the dataset (search for abnormalities in the dataset: check variables’ types, values, distribution).
 Start the data analysis: temporal analysis and side research, as described above
@@ -80,8 +80,8 @@ Design the website to tell our data story and start producing a concise video pr
 
 
 
-|| Organization within the team 
-*Eugénie: *
+### **|| Organization within the team** 
+*Eugénie:*
 Data loading, Data cleaning, Data wrangling in week 1.
 Communication chief: 
 Learn how to produce state-of-the-art, interactive website, in week 2.
@@ -97,6 +97,6 @@ At the service of Eugénie in week 3.
 
 ![Screenshot](timeline.png)
 
-|| Questions for TAs (optional)
+### **|| Questions for TAs (optional)**
 Do the research questions seem reasonable to you? 
 Do you have any libraries that you would recommend for interactive visualizations?
